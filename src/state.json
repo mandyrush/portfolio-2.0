@@ -1,0 +1,57 @@
+{
+    "skills": [
+        "Frontend Development",
+        "Backend Development",
+        "RWD",
+        "Restful API"
+    ],
+    "proficiencies": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Javascript",
+        "React",
+        "Redux",
+        "NodeJS",
+        "Git",
+        "PHP",
+        "Wordpress"
+    ],
+    "experience": [
+        {
+            "company": "AD Creative Group",
+            "location": "Billings, MT",
+            "dates": "Mar 2020 - Current",
+            "title": "Frontend Web Developer",
+            "description": "In this role I leverage PHP, Javascript and Bootstrap to create custom Wordpress themes for our clients which are fully functional and responsive. I am also responsible for updating and maintaining a number of websites on a monthly basis."
+        },
+        {
+            "company": "Fragment Labs",
+            "location": "Raleigh, NC (Remote)",
+            "dates": "Jan 2019 - Oct 2019",
+            "title": "Frontend Web Developer",
+            "description": "I worked on a redesign project creating a fully responsive frontend SPA built with Laravel, Vue and Vuex that integrated with a Laravel backend. It used Axios to call the backend API and Bulma as the CSS framework. It included a registration form, token based authentication and an account dashboard for authorized users."
+        },
+        {
+            "company": "Freelance",
+            "location": "",
+            "dates": "Jul 2017 - Feb 2019",
+            "title": "Freelance Web Developer",
+            "description": "I created and maintained fully responsive websites using PHP, Vue, Laravel and Javascript, along with Bootstrap and MySQL."
+        }
+    ],
+    "projects": [
+        {
+            "url": "",
+            "image": ""
+        },
+        {
+            "url": "",
+            "image": ""
+        },
+        {
+            "url": "",
+            "image": ""
+        }
+    ]
+}
