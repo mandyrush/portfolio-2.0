@@ -1,0 +1,9 @@
+.portfolio {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+}

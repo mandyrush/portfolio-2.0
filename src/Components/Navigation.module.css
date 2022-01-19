@@ -1,0 +1,12 @@
+.mainNav {
+    padding: 1rem;
+    background-color: var(--accentColor);
+    text-align: center;
+}
+
+.mainNav a {
+    color: var(--highlightColor);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem;
+}

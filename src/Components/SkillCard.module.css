@@ -1,0 +1,14 @@
+.skillCard {
+    text-align: center;
+}
+
+.skillCard ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.skillCard ul li {
+    padding: 0.5rem 1rem;
+}

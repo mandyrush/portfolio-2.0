@@ -1,9 +1,12 @@
 import React from "react";
+import styles from './PortfolioCard.module.css';
 
-const PortfolioCard = () => {
+const PortfolioCard = ({
+    project
+}) => {
     return (
-        <div>
-
+        <div className={styles.portfolioCard}>
+            <p>Project Name</p>
         </div>
     )
 }
