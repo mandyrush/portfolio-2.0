@@ -6,7 +6,9 @@ const PortfolioCard = ({
 }) => {
     return (
         <div className={styles.portfolioCard}>
-            <p>Project Name</p>
+            <a href={project.url} target="_blank" rel="noopener noreferrer">
+                <img src={project.imagePath} alt="" />
+            </a>
         </div>
     )
 }

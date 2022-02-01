@@ -1,9 +1,32 @@
 .skillCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    padding: var(--space-rg);
+}
+
+.skillCard:first-child {
+    background-color: rgba(0,0,0,0.5);
+    color: var(--color-white);
+}
+
+.skillCard:first-child h3 {
+    color: var(--color-white);
+}
+
+.skillCard:last-child {
+    background-color: rgba(0,0,0,0.5);
+    color: var(--color-white);
+}
+
+.skillCard:last-child h3 {
+    color: var(--color-secondary-white);
 }
 
 .skillCard ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     list-style: none;
     padding: 0;

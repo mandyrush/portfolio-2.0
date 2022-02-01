@@ -1,5 +1,13 @@
 .footer {
-    background-color: var(--accentColor);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: var(--space-rg);
+    background-color: rgba(0,0,0,0.7);
     text-align: center;
-    padding: 1rem;
+}
+
+.footer a span {
+    font-size: var(--font-mdlg);
 }

@@ -8,7 +8,7 @@ const SkillCard = ({
 }) => {
     return (
         <div className={styles.skillCard}>
-            <h2>{title}</h2>
+            <h3>{title}</h3>
             <ul>
                 {skills && skills.map((skill, index) => (
                     <li key={index}>{skill}</li>

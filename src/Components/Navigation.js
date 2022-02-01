@@ -3,13 +3,14 @@ import styles from './Navigation.module.css';
 
 const Navigation = () => {
     return (
-        <nav className={styles.mainNav}>
-            <a href="#competencies">Core Competencies</a>
-            <a href="#proficiencies">Technical Proficiencies</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#experience">Experience</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <div className={styles.mainNav}>
+            <nav className="container">
+                <a href="#portfolio" className="link">Portfolio</a>
+                <a href="#skills" className="link">Skills</a>
+                <a href="#experience" className="link">Experience</a>
+                <a href="mailto:mandyrush85@gmail.com" className="link">Contact</a>
+            </nav>
+        </div>
     )
 }
 

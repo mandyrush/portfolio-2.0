@@ -7,8 +7,10 @@ const Portfolio = ({
     projects
 }) => {
     return (
-        <div className={styles.portfolio}>
-            <h2>Portfolio</h2>
+        <div id="portfolio" className={styles.portfolio}>
+            <header className="vertical-header">
+                <h2>Portfolio</h2>
+            </header>
             {projects && (
                 <div className={styles.projects}>
                     {projects.map((project, index) => (

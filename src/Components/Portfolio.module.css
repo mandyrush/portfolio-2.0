@@ -1,9 +1,22 @@
-.portfolio {
-    text-align: center;
-    padding-top: 3rem;
+.portfolio header {
+    background-color: var(--color-primary);
 }
 
-.projects {
-    display: flex;
-    justify-content: center;
+@media (min-width: 768px) {
+    .portfolio {
+        display: grid;
+        grid-template-columns: 75px 1fr;
+    }
+
+    .projects {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .projects {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }

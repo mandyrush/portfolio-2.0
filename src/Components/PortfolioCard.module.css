@@ -1,3 +1,12 @@
-.portfolioCard {
-    padding: 1rem;
+.portfolioCard a {
+    display: inline;
+    padding: 0;
+}
+
+.portfolioCard img {
+    filter: grayscale(100%);
+}
+
+.portfolioCard img:hover {
+    filter: none;
 }

@@ -21,12 +21,12 @@ const App = () => {
       <Navigation />
       <Header />
       <main>
+        <Portfolio projects={state.projects} />
+        <Experience experience={state.experience} />
         <Skills
           competencies={state.competencies}
           proficiencies={state.proficiencies}
         />
-        <Portfolio projects={state.projects} />
-        <Experience experience={state.experience} />
       </main>
       <Footer />
     </div>

@@ -1,5 +1,21 @@
 .skills {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+    background: url('/public/images/prague_sm.jpg');
+    color: var(--color-dark);
+    padding-bottom: 60px;
+}
+
+.skills header {
+    background-color: var(--color-primary);
+}
+
+@media (min-width: 768px) {
+    .skills {
+        display: grid;
+        grid-template-columns: 75px 1fr;
+    }
+
+    .skillCards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

@@ -2,8 +2,8 @@
     "competencies": [
         "Frontend Development",
         "Backend Development",
-        "RWD",
-        "Restful API"
+        "Responsive Web Design",
+        "Web Accessibility"
     ],
     "proficiencies": [
         "HTML",
@@ -12,8 +12,10 @@
         "Javascript",
         "React",
         "Redux",
-        "NodeJS",
+        "Node",
+        "REST API",
         "Git",
+        "Github",
         "PHP",
         "Wordpress"
     ],
@@ -22,36 +24,91 @@
             "company": "AD Creative Group",
             "location": "Billings, MT",
             "dates": "Mar 2020 - Current",
-            "title": "Frontend Web Developer",
-            "description": "In this role I leverage PHP, Javascript and Bootstrap to create custom Wordpress themes for our clients which are fully functional and responsive. I am also responsible for updating and maintaining a number of websites on a monthly basis."
+            "title": "Frontend Developer",
+            "description": "As a Frontend Developer at AD Creative Group, I am responsible for creating and maintaining beautiful, cohesive and user friendly web experiences. I work closely with the rest of the development team and our designers to deliver feature rich responsive websites.",
+            "highlights": [
+                "Create custom themes and features using PHP, Wordpress, Javascript, HTML, CSS and Bootstrap, based on design layouts built with Photoshop and Illustrator.",
+                "Collaborate with the team regarding site design and planning.",
+                "Leverage accessibility checks to ensure best practices are followed."
+            ]
         },
         {
             "company": "Fragment Labs",
             "location": "Raleigh, NC (Remote)",
             "dates": "Jan 2019 - Oct 2019",
-            "title": "Frontend Web Developer",
-            "description": "I worked on a redesign project creating a fully responsive frontend SPA built with Laravel, Vue and Vuex that integrated with a Laravel backend. It used Axios to call the backend API and Bulma as the CSS framework. It included a registration form, token based authentication and an account dashboard for authorized users."
-        },
-        {
-            "company": "Freelance",
-            "location": "",
-            "dates": "Jul 2017 - Feb 2019",
-            "title": "Freelance Web Developer",
-            "description": "I created and maintained fully responsive websites using PHP, Vue, Laravel and Javascript, along with Bootstrap and MySQL."
+            "title": "Frontend Developer",
+            "description": "As a Frontend Developer at Fragment Labs, I worked closely with the development team on an application redesign. We focused on building an improved user experience with responsive design, while incorporating new features and functionality.",
+            "highlights": [
+                "Created a beautiful frontend application using Vue and Bulma.",
+                "Obtained and handled data from the backend API using Axios.",
+                "Utilized version control and participated in team collaboration throughout the project."
+            ]
         }
     ],
     "projects": [
         {
-            "url": "",
-            "image": ""
+            "url": "https://www.range.net",
+            "imagePath": "/images/range.jpg"
         },
         {
-            "url": "",
-            "image": ""
+            "url": "https://www.kennonproducts.com",
+            "imagePath": "/images/kennon_products.jpg"
         },
         {
-            "url": "",
-            "image": ""
+            "url": "https://www.gfclinic.com",
+            "imagePath": "/images/gfclinic.jpg"
+        },
+        {
+            "url": "https://www.capstoneretire.com",
+            "imagePath": "/images/capstone_retire.jpg"
+        },
+        {
+            "url": "https://www.mpequity.com",
+            "imagePath": "/images/mountain_plains_equity.jpg"
+        },
+        {
+            "url": "https://www.creditservice.com",
+            "imagePath": "/images/credit_service.jpg"
+        },
+        {
+            "url": "https://mountainwavedistilling.com",
+            "imagePath": "/images/mountain_wave_distilling.jpg"
+        },
+        {
+            "url": "https://www.kennonhealthcare.com",
+            "imagePath": "/images/kennon_healthcare.jpg"
+        },
+        {
+            "url": "https://billingssymphony.org",
+            "imagePath": "/images/billings_symphony.jpg"
+        },
+        {
+            "url": "https://bluebowfashion.com",
+            "imagePath": "/images/blue_bow.jpg"
+        },
+        {
+            "url": "https://www.bridgesmt.org",
+            "imagePath": "/images/bridgesmt.jpg"
+        },
+        {
+            "url": "https://www.oaklandcompanies.com",
+            "imagePath": "/images/oakland_companies.jpg"
+        },
+        {
+            "url": "https://www.profitableideas.com/neversaysell",
+            "imagePath": "/images/profitable_ideas_neversaysell.jpg"
+        },
+        {
+            "url": "https://www.raiseright.org",
+            "imagePath": "/images/raise_right.jpg"
+        },
+        {
+            "url": "https://www.raisincontracting.com",
+            "imagePath": "/images/raisin_contracting.jpg"
+        },
+        {
+            "url": "https://www.verhaeghebenefits.com",
+            "imagePath": "/images/verhaeghe_benefits.jpg"
         }
     ]
 }

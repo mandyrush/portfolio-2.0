@@ -1,86 +1,138 @@
-/* Colors */
 :root {
-  --accentColor: #ea5c86;
-  --highlightColor: #ffffff;
-  --darkColor: #231F20;
+  /* Colors */
+  --color-white: #ffffff;
+  --color-primary: #b86189;
+  --color-secondary: #7DAA92;
+  --color-secondary-dark: #3c5d4b;
+  --color-dark: #000;
+
+  /* Fonts */
+  --font-primary: 'Poppins', sans-serif;
+
+  /* Font Weight */
+  --fontWeight-lt: 300;
+  --fontWeight-rg: 400;
+  --fontWeight-md: 500;
+  --fontWeight-sb: 600;
+  --fontWeight-b: 700;
+
+  /* Font Sizes */
+  --font-sm: 0.875rem;
+  --font-rg: 1rem;
+  --font-md: 1.25rem;
+  --font-mdlg: 1.5rem;
+  --font-lg: 2rem;
+  --font-xl: 3rem;
+
+  /* Spacing */
+  --space-sm: 0.5rem;
+  --space-rg: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
 }
 
-/* CSS Reset */
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+.App {
+  position: relative;
 }
 
-/* Remove default padding */
-ul[class],
-ol[class] {
-  padding: 0;
-}
-
-/* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
-/* Set core body defaults */
 body {
-  min-height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  background-color: var(--color-white);
+  font-family: var(--font-primary);
 }
 
-/* Remove list styles on ul, ol elements with a class attribute */
-ul[class],
-ol[class] {
-  list-style: none;
+h1,
+h2 {
+  font-weight: var(--fontWeight-lt);
 }
 
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
+h2 {
+  font-size: var(--font-lg);
 }
 
-/* Make images easier to work with */
-img {
-  max-width: 100%;
-  display: block;
+h3 {
+  font-size: var(--font-mdlg);
 }
 
-/* Natural flow and rhythm in articles by default */
-article > * + * {
-  margin-top: 1em;
+.vertical-header h2 {
+  text-align: center;
+  color: var(--color-white);
+  text-transform: uppercase;
+  /* font-size: 72px; */
 }
 
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
+.container {
+  width: 100%;
+  padding-right: var(--space-rg);
+  padding-left: var(--space-rg);
+  margin-right: auto;
+  margin-left: auto;
 }
 
-/* Remove all animations and transitions for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
+/*************** 
+Links 
+***************/
+a {
+  color: var(--color-secondary);
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+a:hover {
+  color: var(--color-secondary-dark);
+}
+
+a.link-light {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+a.link-light:hover,
+a.link-light:active,
+a.link-light:focus {
+  color: var(--color-dark);
+}
+
+/*************** 
+Media Queries
+***************/
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .vertical-header h2 {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: start;
+    padding-top: var(--space-lg);
+    padding-bottom: var(--space-lg);
+    color: var(--color-white);
+    font-weight: 600;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
   }
 }

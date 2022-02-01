@@ -8,15 +8,20 @@ const Skills = ({
     proficiencies
 }) => {
     return (
-        <div className={styles.skills}>
-            <SkillCard
-                skills={competencies}
-                title="Core Competencies"
-            />
-            <SkillCard
-                skills={proficiencies}
-                title="Technical Proficiencies"
-            />
+        <div id="skills" className={styles.skills}>
+            <header className="vertical-header">
+                <h2 className="vertical">Skills</h2>
+            </header>
+            <div className={styles.skillCards}>
+                <SkillCard
+                    skills={competencies}
+                    title="Core Competencies"
+                />
+                <SkillCard
+                    skills={proficiencies}
+                    title="Technical Proficiencies"
+                />
+            </div>
         </div>
     )
 }
