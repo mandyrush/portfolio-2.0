@@ -1,8 +1,10 @@
 .header {
-    background: var(--color-white) url('/public/images/amanda.jpg');
+    position: relative;
+    background: var(--color-dark) url('/public/images/amanda_croatia2.webp');
     background-size: cover;
-    background-position: center right;
-    color: var(--color-dark);
+    background-position: center 30%;
+    color: var(--color-white);
+    text-shadow: 0 0 16px rgba(0,0,0,0.8);
     padding-top: var(--space-xl);
     padding-bottom: var(--space-xl);
     min-height: 100vh;
@@ -11,13 +13,28 @@
     align-items: center;
 }
 
+.gradientOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to left, rgba(0,0,0,0.8), transparent 65%, transparent 80%, rgba(0,0,0,0.3) 90%);
+}
+
+.header .content {
+    position: relative;
+    z-index: 2000;
+}
+
 .header h1 {
+    color: var(--color-white);
     font-size: var(--font-xl);
     line-height: 1;
 }
 
 .header h2 {
-    color: var(--color-secondary);
+    color: var(--color-white);
     font-size: var(--font-mdlg);
     margin-bottom: var(--space-rg);
     letter-spacing: 5px;
@@ -36,5 +53,22 @@ header a {
     .content {
         max-width: 500px;
         margin-left: auto;
+    }
+}
+
+@media (min-width: 2000px) {
+    .content {
+        max-width: 600px;
+    }
+    .header h1 {
+        font-size: var(--font-xxl);
+    }
+
+    .header h2 {
+        font-size: var(--font-lg);
+    }
+
+    .header p {
+        font-size: var(--font-md);
     }
 }

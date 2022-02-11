@@ -1,7 +1,7 @@
 :root {
   /* Colors */
   --color-white: #ffffff;
-  --color-primary: #b86189;
+  --color-primary: #2D4766;
   --color-secondary: #7DAA92;
   --color-secondary-dark: #3c5d4b;
   --color-dark: #000;
@@ -23,6 +23,7 @@
   --font-mdlg: 1.5rem;
   --font-lg: 2rem;
   --font-xl: 3rem;
+  --font-xxl: 5rem;
 
   /* Spacing */
   --space-sm: 0.5rem;
@@ -37,7 +38,7 @@
 }
 
 body {
-  background-color: var(--color-white);
+  background-color: var(--color-dark);
   font-family: var(--font-primary);
 }
 
@@ -51,14 +52,13 @@ h2 {
 }
 
 h3 {
-  font-size: var(--font-mdlg);
+  font-size: var(--font-md);
 }
 
 .vertical-header h2 {
   text-align: center;
   color: var(--color-white);
   text-transform: uppercase;
-  /* font-size: 72px; */
 }
 
 .container {
@@ -69,17 +69,29 @@ h3 {
   margin-left: auto;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap; /* added line */
+  border: 0;
+}
+
 /*************** 
 Links 
 ***************/
 a {
-  color: var(--color-secondary);
+  color: var(--color-white);
   text-decoration: none;
   padding: 0.5rem;
 }
 
 a:hover {
-  color: var(--color-secondary-dark);
+  color: var(--color-secondary);
 }
 
 a.link-light {

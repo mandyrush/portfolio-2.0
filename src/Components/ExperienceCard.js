@@ -8,9 +8,9 @@ const ExperienceCard = ({
         <div className={styles.experienceCard}>
             <div className={styles.content}>
                 <div>
-                    <p className={styles.company}>{experience.company}</p>
+                    <h3 className={styles.company}>{experience.company}</h3>
                     <p><em>{experience.location}</em></p>
-                    <p>{experience.dates}</p>
+                    <p className={styles.date}>{experience.dates}</p>
                 </div>
                 <div>
                     <p className={styles.title}>{experience.title}</p>

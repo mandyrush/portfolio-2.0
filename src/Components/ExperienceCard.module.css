@@ -1,17 +1,21 @@
 .experienceCard {
-    background-color: var(--color-white);
     max-width: 800px;
     margin: auto;
     padding: var(--space-rg) 0;
 }
 
 .company {
+    color: var(--color-secondary-dark);
     font-weight: var(--fontWeight-sb);
+}
+
+.date{
+    margin-bottom: 1rem;
 }
 
 .title {
     text-transform: uppercase;
-    color: var(--color-primary);
+    letter-spacing: 2px;
 }
 
 @media (min-width: 768px) {

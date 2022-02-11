@@ -47,68 +47,64 @@
     ],
     "projects": [
         {
-            "url": "https://www.range.net",
-            "imagePath": "/images/range.jpg"
+            "url": "http://pizza-recipe-app-frontend.herokuapp.com",
+            "imagePath": "/images/pizza_recipe_app.webp"
         },
         {
-            "url": "https://www.kennonproducts.com",
-            "imagePath": "/images/kennon_products.jpg"
+            "url": "https://mandyrush.github.io/JS211_Api_checkpoint/",
+            "imagePath": "/images/go_fish.webp"
         },
         {
-            "url": "https://www.gfclinic.com",
-            "imagePath": "/images/gfclinic.jpg"
+            "url": "https://mandyrush.github.io/JS211_PigLatinProject/",
+            "imagePath": "/images/piglatin_translator.jpg"
         },
         {
-            "url": "https://www.capstoneretire.com",
-            "imagePath": "/images/capstone_retire.jpg"
-        },
-        {
-            "url": "https://www.mpequity.com",
-            "imagePath": "/images/mountain_plains_equity.jpg"
-        },
-        {
-            "url": "https://www.creditservice.com",
-            "imagePath": "/images/credit_service.jpg"
-        },
-        {
-            "url": "https://mountainwavedistilling.com",
-            "imagePath": "/images/mountain_wave_distilling.jpg"
-        },
-        {
-            "url": "https://www.kennonhealthcare.com",
-            "imagePath": "/images/kennon_healthcare.jpg"
-        },
-        {
-            "url": "https://billingssymphony.org",
-            "imagePath": "/images/billings_symphony.jpg"
+            "url": "https://small-business-app-76710.web.app/",
+            "imagePath": "/images/small_business_app.webp"
         },
         {
             "url": "https://bluebowfashion.com",
-            "imagePath": "/images/blue_bow.jpg"
+            "imagePath": "/images/blue_bow.webp"
         },
         {
-            "url": "https://www.bridgesmt.org",
-            "imagePath": "/images/bridgesmt.jpg"
+            "url": "https://www.range.net",
+            "imagePath": "/images/range.webp"
         },
         {
-            "url": "https://www.oaklandcompanies.com",
-            "imagePath": "/images/oakland_companies.jpg"
+            "url": "https://www.kennonproducts.com",
+            "imagePath": "/images/kennon_products.webp"
         },
         {
-            "url": "https://www.profitableideas.com/neversaysell",
-            "imagePath": "/images/profitable_ideas_neversaysell.jpg"
+            "url": "https://www.gfclinic.com",
+            "imagePath": "/images/gfclinic.webp"
         },
         {
-            "url": "https://www.raiseright.org",
-            "imagePath": "/images/raise_right.jpg"
+            "url": "https://www.capstoneretire.com",
+            "imagePath": "/images/capstone_retire.webp"
         },
         {
-            "url": "https://www.raisincontracting.com",
-            "imagePath": "/images/raisin_contracting.jpg"
+            "url": "https://www.markritelines.com",
+            "imagePath": "/images/mrl.webp"
         },
         {
-            "url": "https://www.verhaeghebenefits.com",
-            "imagePath": "/images/verhaeghe_benefits.jpg"
+            "url": "https://www.mpequity.com",
+            "imagePath": "/images/mountain_plains_equity.webp"
+        },
+        {
+            "url": "https://www.creditservice.com",
+            "imagePath": "/images/credit_service.webp"
+        },
+        {
+            "url": "https://mountainwavedistilling.com",
+            "imagePath": "/images/mountain_wave_distilling.webp"
+        },
+        {
+            "url": "https://www.kennonhealthcare.com",
+            "imagePath": "/images/kennon_healthcare.webp"
+        },
+        {
+            "url": "https://billingssymphony.org",
+            "imagePath": "/images/billings_symphony.webp"
         }
     ]
 }
