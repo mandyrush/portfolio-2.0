@@ -12,6 +12,7 @@
         "Javascript",
         "React",
         "Redux",
+        "Vue",
         "Node",
         "REST API",
         "Git",
@@ -21,9 +22,21 @@
     ],
     "experience": [
         {
+            "company": "Zollege",
+            "location": "Remote",
+            "dates": "Feb 2022 - Present",
+            "title": "Frontend Developer",
+            "description": "As a Frontend Developer at Zollege, I work with a team of developers to translate design concepts into beautiful, dynamic and interesting user experiences.",
+            "highlights": [
+                "Create feature rich applications using CSS, React and Bootstrap.",
+                "Obtain and handle data from the backend API using Fetch.",
+                "Utilize version control and collaborate with the team regarding design and planning."
+            ]
+        },
+        {
             "company": "AD Creative Group",
             "location": "Billings, MT",
-            "dates": "Mar 2020 - Current",
+            "dates": "Mar 2020 - Present",
             "title": "Frontend Developer",
             "description": "As a Frontend Developer at AD Creative Group, I am responsible for creating and maintaining beautiful, cohesive and user friendly web experiences. I work closely with the rest of the development team and our designers to deliver feature rich responsive websites.",
             "highlights": [
