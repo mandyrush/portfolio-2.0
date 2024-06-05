@@ -2,57 +2,77 @@
     "competencies": [
         "Frontend Development",
         "Backend Development",
+        "Testing",
         "Responsive Web Design",
         "Web Accessibility"
     ],
     "proficiencies": [
+        "Javascript",
         "HTML",
         "CSS",
-        "Bootstrap",
-        "Javascript",
         "React",
+        "Typescript",
         "Redux",
-        "Vue",
+        "RTK Query",
         "Node",
+        "Express",
+        "Jest",
+        "Playwright",
+        "Cypress",
+        "Bootstrap",
+        "Material UI",
+        "Styled components",
+        "MySQL",
         "REST API",
         "Git",
-        "Github",
-        "PHP",
-        "Wordpress"
+        "Github"
     ],
     "experience": [
         {
+            "company": "Loyal",
+            "location": "Remote",
+            "dates": "May 2022 - Apr 2024",
+            "title": "Frontend Software Engineer",
+            "description": "As a Frontend Software Engineer at Loyal, I worked closely with a team of 7 to develop a healthcare specific review response and boost system. Our applications enhanced the efficiency of managing patient reviews across 3rd-party sites, as well as boosting review volume.",
+            "highlights": [
+                "Utilized Javascript, React, styled components, and an in-house Radix based component library to take design layouts from concept to implementation.",
+                "Implemented a full test suite utilizing Jest and Playwright to ensure test coverage.",
+                "Assisted our backend engineers in creating API endpoints using C# and .NET.",
+                "Regularly ran deployments in CircleCi"
+            ]
+        },
+        {
             "company": "Zollege",
             "location": "Remote",
-            "dates": "Feb 2022 - Present",
+            "dates": "Feb 2022 - May 2022",
             "title": "Frontend Developer",
-            "description": "As a Frontend Developer at Zollege, I work with a team of developers to translate design concepts into beautiful, dynamic and interesting user experiences.",
+            "description": "As a Frontend Developer at Zollege, I worked with a team of developers to translate design concepts into beautiful, dynamic and interesting user experiences.",
             "highlights": [
-                "Create feature rich applications using CSS, React and Bootstrap.",
-                "Obtain and handle data from the backend API using Fetch.",
-                "Utilize version control and collaborate with the team regarding design and planning."
+                "Created feature rich applications using Javascript, React, CSS, and Bootstrap.",
+                "Obtained and handled data from the backend API using Fetch.",
+                "Utilized version control and collaborated with the team regarding design and planning."
             ]
         },
         {
             "company": "AD Creative Group",
             "location": "Billings, MT",
-            "dates": "Mar 2020 - Present",
+            "dates": "Mar 2020 - May 2022",
             "title": "Frontend Developer",
-            "description": "As a Frontend Developer at AD Creative Group, I am responsible for creating and maintaining beautiful, cohesive and user friendly web experiences. I work closely with the rest of the development team and our designers to deliver feature rich responsive websites.",
+            "description": "As a Frontend Developer at AD Creative Group, I was responsible for creating and maintaining beautiful, cohesive and user friendly web experiences. I worked closely with the rest of the development team and our designers to deliver feature rich responsive websites.",
             "highlights": [
-                "Create custom themes and features using PHP, Wordpress, Javascript, HTML, CSS and Bootstrap, based on design layouts built with Photoshop and Illustrator.",
-                "Collaborate with the team regarding site design and planning.",
-                "Leverage accessibility checks to ensure best practices are followed."
+                "Created custom themes and features based on design layouts built with Photoshop and Illustrator.",
+                "Collaborated with the development team regarding site design and planning.",
+                "Leveraged accessibility checks to ensure best practices were followed."
             ]
         },
         {
             "company": "Fragment Labs",
-            "location": "Raleigh, NC (Remote)",
+            "location": "Remote",
             "dates": "Jan 2019 - Oct 2019",
             "title": "Frontend Developer",
-            "description": "As a Frontend Developer at Fragment Labs, I worked closely with the development team on an application redesign. We focused on building an improved user experience with responsive design, while incorporating new features and functionality.",
+            "description": "As a Frontend Developer at Fragment Labs, I worked closely with the development team on an application redesign for a client that provided DOT drug & alcohol testing consortium services for trucking companies.",
             "highlights": [
-                "Created a beautiful frontend application using Vue and Bulma.",
+                "Built and improved user experience with responsive design, simplified menu structure, and improved user registration process while incorporating new features and functionality.",
                 "Obtained and handled data from the backend API using Axios.",
                 "Utilized version control and participated in team collaboration throughout the project."
             ]
